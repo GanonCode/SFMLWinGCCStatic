@@ -1,0 +1,2 @@
+all:
+	g++ test.cpp -o test.exe -DSFML_STATIC -I C:\Users\admin\Desktop\SFML-2.5.1\SFML\include -L C:\Users\admin\Desktop\SFML-2.5.1\SFML\lib -lsfml-graphics-s -lsfml-window-s -lsfml-audio-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype -lopenal32 -lflac -lvorbisenc -lvorbisfile -lvorbis -logg
